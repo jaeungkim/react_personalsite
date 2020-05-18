@@ -1,0 +1,146 @@
+/*
+------------------------------------------------------------------------
+* Author           : JAE UNG KIM                                        
+* Created          : May 2020                                        
+* File Description : Main Css file of the template                     
+*-----------------------------------------------------------------------
+*/
+
+/***********************
+    1. BASIC           
+    2. NAVBAR
+    3. PROFILE
+************************/
+
+/*==========================
+        1.BASIC
+============================*/
+body {
+  background:black;
+}
+
+/*==========================
+        2.NAVBAR
+============================*/
+.custom-nav{
+  padding: 15px 0px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  font-family: ubuntu;
+  position: relative;
+}
+.custom-nav .navbar-brand{
+  color: white;
+  font-size: 24px;
+}
+.custom-nav .navbar-nav li a{
+  color: #fff;
+  font-size: 19px;
+  background-color: transparent !important;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.custom-nav .navbar-nav li a:before{
+  left: 50%;
+  bottom: 10%;
+  height: 6px;
+  width: 6px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.navbar-toggler {
+  font-size: 24px;
+  margin-top: 5px;
+  color:white;
+}
+.navbar-nav li a {
+  color:white;
+}
+.navbar-toggle {
+  font-size: 24px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+/*==========================
+        3.PROFILE
+============================*/
+.custom-profile {
+  font-family: ubuntu;
+  background-image: url("../images/background_img3.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+.bg-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.home-table-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+.home-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.header_title {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.social_home li a {
+  font-size: 18px;
+  color: #ffffff;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+.scroll_down {
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  z-index: 8;
+}
+
+.scroll_down i {
+  position: relative;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  height: 50px;
+  width: 30px;
+  line-height: 60px;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+}
+
+.scroll_down i:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all .2s;
+}
+
+
