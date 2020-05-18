@@ -24,9 +24,9 @@ class Profile extends Component {
                           wrapper='b'
                           steps={[
                             'Jae Kim.', 4000,
-                            'a developer.', 4000,
-                            'a designer.', 4000,
-                            'a blogger.', 4000
+                            'a Developer.', 4000,
+                            'a Designer.', 4000,
+                            'a Blogger.', 4000
                           ]}
                         />
                       </h1>
