@@ -12,10 +12,10 @@ class Profile extends Component {
             params={{
               "particles": {
                 "number": {
-                  "value": 355,
+                  "value": 500,
                   "density": {
                     "enable": true,
-                    "value_area": 789.1476416322727
+                    "value_area": 800
                   }
                 },
                 "color": {
@@ -37,7 +37,7 @@ class Profile extends Component {
                   }
                 },
                 "opacity": {
-                  "value": 0.48927153781200905,
+                  "value": 0.5,
                   "random": false,
                   "anim": {
                     "enable": true,
@@ -99,7 +99,7 @@ class Profile extends Component {
                     }
                   },
                   "bubble": {
-                    "distance": 83.91608391608392,
+                    "distance": 85,
                     "size": 1,
                     "duration": 3,
                     "opacity": 1,
