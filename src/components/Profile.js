@@ -126,7 +126,8 @@ class Profile extends Component {
                 <div class="row justify-content-center">
                   <div class="col-lg-12">
                     <div class="text-white text-center">
-                      <h1 class="header_title mb-0 mt-3"> I am <span>
+                      <h1 class="display-5">I am </h1>
+                      <h1 class="header_title mb-0 mt-3">
                         <Typical
                           loop={Infinity}
                           wrapper='b'
@@ -136,7 +137,7 @@ class Profile extends Component {
                             'a Designer.', 4000,
                             'a Blogger.', 4000
                           ]}
-                        /></span>
+                        />
                       </h1>
                     </div>
                   </div>
