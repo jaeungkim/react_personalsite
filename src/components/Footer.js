@@ -19,6 +19,8 @@ class Footer extends Component {
                     class="social-icon text-muted"><i class="fa fa-linkedin"></i></a></li>
                   <li class="list-inline-item"><a href="https://www.instagram.com/jaekiim/"
                     class="social-icon text-muted"><i class="fa fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.github.com/jaeungkim/"
+                    class="social-icon text-muted"><i class="fa fa-github"></i></a></li>
                 </ul>
               </div>
             </div>

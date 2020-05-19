@@ -1,20 +1,35 @@
 import React, { Component } from "react";
-import { Animated } from "react-animated-css";
+import Particles from 'react-particles-js';
 import Typical from 'react-typical';
 
 class Profile extends Component {
-  // const AnimatedTypingComponent = () => (
-  //   <Typing>
-  //     <span>This span will get typed.</span>
-  //   </Typing>
-  // );
   render() {
     return (
-      <section class="sectoin custom-profile">
+
+      <section class="custom-profile">
         <div class="bg-overlay">
+          <Particles canvasClassName="example"
+            params={{
+              "particles": {
+                "number": {
+                  "value": 100
+                },
+                "size": {
+                  "value": 5
+                }
+              },
+              "interactivity": {
+                "events": {
+                  "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                  }
+                }
+              }
+            }} />
           <div class="home-table">
             <div class="home-table-center">
-              <div class="container position-relative">
+              <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-lg-12">
                     <div class="text-white text-center">
@@ -30,15 +45,6 @@ class Profile extends Component {
                           ]}
                         />
                       </h1>
-                      <ul class="social_home list-unstyled text-center pt-4">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/kjw9149"><i
-                          class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/jaeungkim0526"><i
-                          class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/jaekiim/"><i
-                          class="fa fa-instagram"></i></a></li>
-                      </ul>
-
                     </div>
                   </div>
                 </div>
@@ -46,12 +52,25 @@ class Profile extends Component {
             </div>
           </div>
         </div>
+        <div class="social_bar">
+          <ul class="social_home">
+            <li class="list-inline-item"><a href="https://www.facebook.com/kjw9149"><i
+              class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/jaeungkim0526"><i
+              class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/jaekiim/"><i
+              class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/jaeungkim/"><i
+              class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
         <div class="scroll_down">
           <a href="#about" class="scroll">
             <i class="fa fa-arrow-down text-white"></i>
           </a>
         </div>
       </section>
+
     );
   }
 }

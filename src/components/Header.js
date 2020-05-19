@@ -19,6 +19,9 @@ class MainHeader extends Component {
                 <a href="#about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
+                <a href="#blog" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
                 <a href="#work" class="nav-link">Projects</a>
               </li>
               <li class="nav-item">

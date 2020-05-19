@@ -10,6 +10,7 @@
     1. BASIC           
     2. NAVBAR
     3. PROFILE
+    4. ABOUT
 ************************/
 
 /*==========================
@@ -17,6 +18,9 @@
 ============================*/
 body {
   background:black;
+}
+.example{
+  position:absolute;
 }
 
 /*==========================
@@ -40,6 +44,7 @@ body {
   background-color: transparent !important;
   font-weight: 600;
   transition: all 0.2s;
+  margin-left:15px;
 }
 .custom-nav .navbar-nav li a:before{
   left: 50%;
@@ -96,16 +101,22 @@ body {
   height: 100%;
 }
 .header_title {
-  font-size: 72px;
+  font-size: 80px;
   font-weight: 400;
   line-height: 1.2;
 }
+.social_bar{
+  position: absolute;
+  bottom: 30vh;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
 .social_home li a {
-  font-size: 18px;
   color: #ffffff;
   display: inline-block;
-  width: 30px;
-  text-align: center;
+  width:50px;
 }
 .scroll_down {
   position: absolute;
@@ -114,9 +125,7 @@ body {
   text-align: center;
   color: #fff;
   font-size: 13px;
-  z-index: 8;
 }
-
 .scroll_down i {
   position: relative;
   -webkit-animation: bounce 2s infinite;
@@ -130,17 +139,17 @@ body {
   color: #fff;
   font-size: 12px;
 }
-
 .scroll_down i:after {
-  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  z-index: -1;
   transition: all .2s;
 }
 
+/*==========================
+        4. ABOUT
+============================*/
 
