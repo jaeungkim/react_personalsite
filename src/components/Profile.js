@@ -126,16 +126,16 @@ class Profile extends Component {
                 <div class="row justify-content-center">
                   <div class="col-lg-12">
                     <div class="text-white text-center">
-                      <h1 class="display-5">I am </h1>
-                      <h1 class="header_title mb-0 mt-3">
+                      <h1 class="display-4">I am </h1>
+                      <h1 class="header_title">
                         <Typical
                           loop={Infinity}
                           wrapper='b'
                           steps={[
                             'Jae Kim.', 4000,
-                            'a Developer.', 4000,
-                            'a Designer.', 4000,
-                            'a Blogger.', 4000
+                            'Developer.', 4000,
+                            'Designer.', 4000,
+                            'Blogger.', 4000
                           ]}
                         />
                       </h1>
