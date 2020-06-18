@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Particles from 'react-particles-js';
 import Typical from 'react-typical';
+import { Link } from "react-scroll";
+
 
 class Profile extends Component {
   render() {
     return (
-
-      <section class="custom-profile">
-        <div class="bg-overlay">
+      <section className="custom-profile">
+        <div className="bg-overlay">
           <Particles canvasClassName="example"
             params={{
               "particles": {
@@ -120,14 +121,14 @@ class Profile extends Component {
               "retina_detect": true
             }
             } />
-          <div class="home-table">
-            <div class="home-table-center">
-              <div class="container">
-                <div class="row justify-content-center">
-                  <div class="col-lg-12">
-                    <div class="text-white text-center">
-                      <h1 class="display-4">I am </h1>
-                      <h1 class="header_title">
+          <div className="home-table">
+            <div className="home-table-center">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-lg-12">
+                    <div className="text-white text-center">
+                      <h1 className="display-4">I am </h1>
+                      <h1 className="header_title">
                         <Typical
                           loop={Infinity}
                           wrapper='b'
@@ -146,25 +147,31 @@ class Profile extends Component {
             </div>
           </div>
         </div>
-        <div class="social_bar">
-          <ul class="social_home">
-            <li class="list-inline-item"><a href="https://www.facebook.com/kjw9149"><i
-              class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/jaeungkim0526"><i
-              class="fa fa-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/jaekiim/"><i
-              class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/jaeungkim/"><i
-              class="fa fa-github"></i></a></li>
+        <div className="social_bar">
+          <ul className="social_home">
+            <li className="list-inline-item"><a href="https://www.facebook.com/kjw9149"><i
+              className="fa fa-facebook"></i></a></li>
+            <li className="list-inline-item"><a href="https://www.linkedin.com/in/jaeungkim0526"><i
+              className="fa fa-linkedin"></i></a></li>
+            <li className="list-inline-item"><a href="https://www.instagram.com/jaekiim/"><i
+              className="fa fa-instagram"></i></a></li>
+            <li className="list-inline-item"><a href="https://github.com/jaeungkim/"><i
+              className="fa fa-github"></i></a></li>
           </ul>
         </div>
-        <div class="scroll_down">
-          <a href="#about" class="scroll">
-            <i class="fa fa-arrow-down text-white"></i>
-          </a>
+        <div className="scroll_down">
+          <Link
+            className="scroll active nav-link"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <i className="fa fa-arrow-down text-white"></i>
+          </Link>
         </div>
       </section>
-
     );
   }
 }

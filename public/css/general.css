@@ -16,13 +16,12 @@
 /*==========================
         1.BASIC
 ============================*/
-body {
-  background:black;
+body{
+ 
 }
 .example{
   position:absolute;
 }
-
 /*==========================
         2.NAVBAR
 ============================*/
@@ -160,6 +159,41 @@ body {
 /*==========================
         4. ABOUT
 ============================*/
+
+.custom_about{
+  height: 100%;
+  padding: 3em 0;
+  font-family: 'ubuntu';
+  background-color: #bdbdbd;
+  position: relative;
+  overflow: scroll;
+}
+.about_explanation{
+  font-size: 2vh;
+}
+
+/*==========================
+        5. Experience
+============================*/
+
+.custom_experience{
+  padding: 3em 1em;
+  height: 100%;
+  background-color: #d4d4d4;
+  font-family: ubuntu;
+  
+}
+
+/*==========================
+        6. Projects
+============================*/
+
+.custom_project{
+  font-family: ubuntu;
+  padding: 3em 1em;
+  height: 100%;
+  background-color: #bdbdbd;
+}
 
 
 /*==========================
