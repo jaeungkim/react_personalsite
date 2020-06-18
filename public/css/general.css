@@ -165,8 +165,6 @@ body{
   padding: 3em 0;
   font-family: 'ubuntu';
   background-color: #bdbdbd;
-  position: relative;
-  overflow: scroll;
 }
 .about_explanation{
   font-size: 2vh;
