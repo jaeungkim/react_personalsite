@@ -8,8 +8,9 @@ class Project extends Component {
     return (
 
       <section className="custom_project" id="project">
-        <h1>Projects</h1>
+        
         <Container>
+        <h1>Projects</h1>
           <Row>
             <Col md>
               

@@ -7,8 +7,9 @@ class Project extends Component {
     return (
       
       <section className="custom_experience" id="work">
-        <h1> Education & Skills </h1>
+
         <Container>
+        <h1> Education & Skills </h1>
           <Row>
             <Col>
             <img className="mb-3 mt-3 w-100" src="../images/ubc_logo3.png" alt=""></img>

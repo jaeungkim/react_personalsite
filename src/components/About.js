@@ -5,8 +5,11 @@ class About extends Component {
   render() {
     return (
       <section className="custom_about" id="about">
+        
         <Container>
+        <h1> About Me </h1>
           <Row>
+            
             <Col md>
               <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -39,23 +42,23 @@ class About extends Component {
                 </a>
               </div>
             </Col>
-            
+
             <Col md>
               <div>
-                <h1> About Me </h1>
-                <p className = "about_explanation">
+
+                <p className="about_explanation">
                   I am a dedicated software developer who recently graduated
-                  from the University of British Columbia with a B.Sc. in Computer Science. 
+                  from the University of British Columbia with a B.Sc. in Computer Science.
                   From a very young age, I always loved playing with computers whether it was just playing with pre-installed
                   computer games like Pinball or just browsing through internets. <br />
                   Indeed, as I entered University and got a chance to learn more about computers and how they worked, I absolutely fell
-                  in love with coding and computer science. I had opportunities to develop in several areas but I found web developing the most entertaining as I was able to 
-                  not only excel in coding but I was also able to show my user interface design skills as well. <br />
-                  Thus, during my 3rd and 4th year, I chose to focus mainly on web-dev projects, and worked on several eCommerce websites. 
+                  in love with coding. I had opportunities to develop in several areas but I found web developing the most entertaining as I was able to
+                  not only code but I was also able to design as well. <br />
+                  Thus, during my 3rd and 4th year, I chose to focus mainly on web-dev projects, and worked on several eCommerce websites.
                   Although, of course, I am always open to new experiences and challenges as well.<br />
-                  As for experiences, I have 2 non-tech internships at GlaxoSmithKline as customer excellence 
-                  team and AirBnB as trust and safety team. From these experiences, I was able to gain insights 
-                  on how companies interact with their customers. Since developers also need to find what customers want 
+                  As for experiences, I have 2 non-tech internships at GlaxoSmithKline as customer excellence
+                  team and AirBnB as trust and safety team. From these experiences, I was able to gain insights
+                  on how companies interact with their customers. Since developers also need to find what customers want
                   , and these experiences helped me understand how companies handle a wide range of customer issues.
                 </p>
 
