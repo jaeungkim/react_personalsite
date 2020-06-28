@@ -70,7 +70,7 @@ class MainHeader extends Component {
                 style={{ cursor: "pointer" }}
               > Projects </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 className="active nav-link"
                 to="contact"
@@ -80,7 +80,7 @@ class MainHeader extends Component {
                 duration={500}
                 style={{ cursor: "pointer" }}
               > Contact </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
