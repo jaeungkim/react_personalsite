@@ -8,14 +8,16 @@ class Project extends Component {
     return (
 
       <section className="custom_project" id="project">
-        
+
         <Container>
-        <h1>Projects</h1>
+          <div className="text-center">
+            <h1> Projects </h1>
+          </div>
           <Row>
             <Col md>
-              
+
               <div class="text-center rounded bg-white p-2">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="content_blog pt-3 pb-3">
                   <div>
                     <h5 class="font-weight-bold mb-0"><a href="http://cosc499.ok.ubc.ca/19831149/deploy/src/frontPage.php" class="text-dark">Lental Website</a></h5>

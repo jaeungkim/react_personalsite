@@ -5,14 +5,14 @@ class About extends Component {
   render() {
     return (
       <section className="custom_about" id="about">
-        
         <Container>
-        <h1> About Me </h1>
+          <div className="mb-4 text-center">
+            <h1> About Me </h1>
+          </div>
           <Row>
-            
             <Col md>
               <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol className="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
