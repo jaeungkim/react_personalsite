@@ -3,11 +3,41 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 class MainHeader extends Component {
-  render(
+  constructor(props) {
+    super(props);
 
-  ) {
+    this.listener = null;
+    this.state = {
+      status: "top"
+    };
+  }
+  componentDidMount() {
+    this.listener = document.addEventListener("scroll", e => {
+      var scrolled = document.scrollingElement.scrollTop;
+      if (scrolled >= 120) {
+        if (this.state.status !== "nav") {
+          this.setState({ status: "nav" });
+        }
+      } else {
+        if (this.state.status !== "top") {
+          this.setState({ status: "top" });
+        }
+      }
+    });
+  }
+  componentDidUpdate() {
+    document.removeEventListener("scroll", this.listener);
+  }
+
+  render() {
     return (
-      <nav className="navbar navbar-expand-lg custom-nav fixed-top">
+      <nav
+      style={{
+        backgroundColor: this.state.status === "top" ? "transparent" : "white",
+        color: this.state.status === "top" ? "white" : "black",
+         position: "fixed"
+      }} 
+      className="navbar navbar-expand-lg custom-nav fixed-top">
         <Link
           // activeClass="active"
           className="navbar-brand"
@@ -17,7 +47,7 @@ class MainHeader extends Component {
           offset={-70}
           duration={500}
           style={{ cursor: "pointer" }}
-          onClick={scroll.scrollToTop}       
+          onClick={scroll.scrollToTop}
         > Jae Kim </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

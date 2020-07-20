@@ -8,9 +8,8 @@ class Project extends Component {
     return (
 
       <section className="custom_project" id="project">
-
         <Container>
-          <div className="text-center">
+          <div className="text-center mt-3">
             <h1> Projects </h1>
           </div>
           <Row>
