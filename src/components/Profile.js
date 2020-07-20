@@ -52,7 +52,7 @@ class Profile extends Component {
                   "random": true,
                   "anim": {
                     "enable": true,
-                    "speed": 2,
+                    "speed": 4,
                     "size_min": 0,
                     "sync": false
                   }
@@ -66,7 +66,7 @@ class Profile extends Component {
                 },
                 "move": {
                   "enable": true,
-                  "speed": 0.2,
+                  "speed": 2,
                   "direction": "none",
                   "random": true,
                   "straight": false,
