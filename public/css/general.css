@@ -54,15 +54,6 @@
 .navbar-toggler {
   font-size: 24px;
   margin-top: 5px;
-
-}
-.navbar-nav li a {
-
-}
-.navbar-toggle {
-  font-size: 24px;
-  margin-top: 5px;
-
 }
 
 /*==========================
@@ -154,12 +145,17 @@
 ============================*/
 
 .custom_about{
+  font-family: ubuntu;
   height: 100%;
   padding: 3em 0;
-  font-family: 'ubuntu';
 }
 .about_explanation{
   font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.carousel-indicators li{
+  display:none;
 }
 
 /*==========================
@@ -169,7 +165,7 @@
 .custom_experience{
   padding: 3em 1em;
   height: 100%;
-  background-color: #d4d4d4;
+  background-color: #f5f5f5;
   font-family: ubuntu;
   
 }

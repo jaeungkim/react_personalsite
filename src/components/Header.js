@@ -32,12 +32,12 @@ class MainHeader extends Component {
   render() {
     return (
       <nav
-      style={{
-        backgroundColor: this.state.status === "top" ? "transparent" : "white",
-        color: this.state.status === "top" ? "white" : "black",
-         position: "fixed"
-      }} 
-      className="navbar navbar-expand-lg custom-nav fixed-top">
+        style={{
+          backgroundColor: this.state.status === "top" ? "transparent" : "white",
+          color: this.state.status === "top" ? "white" : "black",
+          position: "fixed"
+        }}
+        className="navbar navbar-expand-lg custom-nav fixed-top">
         <Link
           // activeClass="active"
           className="navbar-brand"
@@ -49,7 +49,11 @@ class MainHeader extends Component {
           style={{ cursor: "pointer" }}
           onClick={scroll.scrollToTop}
         > Jae Kim </Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <button
+          style={{
+            color: this.state.status === "top" ? "white" : "black",
+          }}
+          className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i className="fa fa-bars"></i>
         </button>

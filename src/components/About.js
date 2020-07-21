@@ -6,12 +6,12 @@ class About extends Component {
     return (
       <section className="custom_about" id="about">
         <Container>
-          <div className="mb-4 text-center">
+          <div className="mb-3 text-center">
             <h1> About Me </h1>
           </div>
           <Row>
             <Col md>
-              <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+              <div id="carouselExampleIndicators" className="mt-2 carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
