@@ -1,8 +1,25 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Modal, Button, Container, Row, Col } from 'react-bootstrap';
 
 
 class Project extends Component {
+  constructor() {
+    super();
+
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+
+    this.state = {
+      show: false
+    };
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+  handleShow(id) {
+    this.setState({ show: id });
+  }
   render() {
 
     return (
@@ -14,27 +31,51 @@ class Project extends Component {
           </div>
           <Row>
             <Col md>
-
-              <div class="text-center rounded bg-white p-2">
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="content_blog pt-3 pb-3">
-                  <div>
-                    <h5 class="font-weight-bold mb-0"><a href="http://cosc499.ok.ubc.ca/19831149/deploy/src/frontPage.php" class="text-dark">Lental Website</a></h5>
-                  </div>
-                </div>
+              <div class="text-center rounded ">
+                <h5 class="font-weight-bold mb-0">Lental</h5>
               </div>
+              <Button variant="" onClick={() => this.handleShow('lental')}> <img className="d-block w-100" src="../images/lental_home.png" alt=""></img> </Button>
+              <Modal
+                show={this.state.show === 'lental'}
+                onHide={this.handleClose}
+                dialogClassName="custom-modal"
+              >
+                <Modal.Header closeButton>
+                </Modal.Header>
+                <Modal.Body>
 
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={this.handleClose}> Close </Button>
+                </Modal.Footer>
+              </Modal>
             </Col>
-            {/* <Col md>
-              <div class="card mb-3 mt-3">
-                <img src="..." class="card-img-top" alt="..."></img>
-                <div class="card-body">
-                  <h5 class="card-title">Card with stretched link</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                </div>
+
+
+            <Col md>
+              <div class="text-center rounded ">
+                <h5 class="font-weight-bold mb-0">Base Town</h5>
               </div>
-            </Col> */}
+              <Button variant="" onClick={() => this.handleShow('base')}> <img className="d-block w-100" src="../images/base_town.png" alt=""></img> </Button>
+              <Modal
+                show={this.state.show === 'base'}
+                onHide={this.handleClose}
+                dialogClassName="custom-modal"
+              >
+                <Modal.Header closeButton>
+                </Modal.Header>
+                <Modal.Body>
+
+                  <h5> Base Town Brief Description</h5>
+
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={this.handleClose}> Close </Button>
+                </Modal.Footer>
+              </Modal>
+            </Col>
           </Row>
         </Container>
       </section>
