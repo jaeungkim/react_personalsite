@@ -65,7 +65,7 @@ class Project extends Component {
                       <tr>
                         <td><b>Agile Software Development</b></td>
                         <td>COSC 419L</td>
-                        <td></td>
+                        <td>Introduction to the Agile Software Development process.</td>
                       </tr>
 
                       <tr>

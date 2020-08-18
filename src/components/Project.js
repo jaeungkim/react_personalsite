@@ -31,8 +31,8 @@ class Project extends Component {
           </div>
           <Row>
             <Col md>
-              <div class="text-center rounded ">
-                <h5 class="font-weight-bold mb-0">Lental</h5>
+              <div className="text-center rounded ">
+                <h5 className="font-weight-bold mb-0">Lental</h5>
               </div>
               <Button variant="" onClick={() => this.handleShow('lental')}> <img className="d-block w-100" src="../images/lental_home.png" alt=""></img> </Button>
               <Modal
@@ -54,7 +54,7 @@ class Project extends Component {
             </Col>
 
 
-            <Col md>
+            {/* <Col md>
               <div class="text-center rounded ">
                 <h5 class="font-weight-bold mb-0">Base Town</h5>
               </div>
@@ -75,7 +75,7 @@ class Project extends Component {
                   <Button variant="secondary" onClick={this.handleClose}> Close </Button>
                 </Modal.Footer>
               </Modal>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>
