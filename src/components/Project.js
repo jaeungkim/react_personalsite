@@ -34,7 +34,7 @@ class Project extends Component {
               <div className="text-center rounded ">
                 <h5 className="font-weight-bold mb-0">Lental</h5>
               </div>
-              <Button variant="" onClick={() => this.handleShow('lental')}> <img className="d-block w-100" src="../images/lental_home.png" alt=""></img> </Button>
+              <Button variant="" onClick={() => this.handleShow('lental')}> <img className="w-50" src="../images/lental_pic.png" alt=""></img> </Button>
               <Modal
                 show={this.state.show === 'lental'}
                 onHide={this.handleClose}
