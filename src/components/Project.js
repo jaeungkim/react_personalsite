@@ -32,7 +32,7 @@ class Project extends Component {
           <Row>
             <Col md>
               <div className="text-center rounded ">
-                <h5 className="font-weight-bold mb-0">Lental</h5>
+                <h5 className="font-weight-bold mb-0 font-italic">Lental.Inc</h5>
               </div>
               <Button variant="" onClick={() => this.handleShow('lental')}> <img className="w-50" src="../images/lental_pic.png" alt=""></img> </Button>
               <Modal
@@ -44,7 +44,7 @@ class Project extends Component {
                 </Modal.Header>
                 <Modal.Body>
 
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe title = "lental" width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 </Modal.Body>
                 <Modal.Footer>

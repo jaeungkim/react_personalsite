@@ -193,16 +193,13 @@
   height: 100%;
 }
 
-.success-msg{
-  color: green;
-  padding: 10px 15px;  
+.success{
+  color: #0ff40f;
 }
 
-.err-msg {
-  color: red;
-  padding: 10px 15px;
+.error{
+  color: #960303;
 }
-
 
 /*==========================
         10. MOBILE VIEW
