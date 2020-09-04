@@ -61,7 +61,7 @@ const ContactForm = () => {
               <Form.Group controlId="email">
                 <Form.Label>Email</Form.Label>
                 <Form.Control
-                  type="text"
+                  type="email"
                   name="email"
                   value={state.email}
                   placeholder="Enter your email"
