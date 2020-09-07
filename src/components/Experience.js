@@ -28,13 +28,11 @@ class Project extends Component {
         <Container>
           <div className="text-center">
             <h1> Education & Skills </h1>
-
           </div>
           <Row>
 
             <Col md>
               <img className="mb-3 mt-3 w-100" src="../images/ubc_logo3.png" alt=""></img>
-
               <Button variant="primary" onClick={this.handleShow}> Course History </Button>
               <Modal
                 show={this.state.show}
@@ -134,9 +132,9 @@ class Project extends Component {
 
             </Col>
 
-            {/* <Col md>
+            <Col md>
               <p> Skills</p>
-            </Col> */}
+            </Col>
 
           </Row>
         </Container>

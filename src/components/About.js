@@ -46,17 +46,16 @@ class About extends Component {
             <Col md>
               <div>
                 <p className="mt-2 about_explanation">
-                  Hello, I am a dedicated software developer who recently graduated 
-                  from the University of British Columbia with B.S in Computer Science. 
-                  <br />From a very young age, I always loved playing with computers whether
+                  I am a dedicated software developer who recently graduated 
+                  from the University of British Columbia with B.Sc in Computer Science.
+                  <br /><br />When I was young, I loved playing with computers whether
                   it was just playing with pre-installed computer games like Pinball or just 
-                  browsing through internets.
-                  <br />Indeed, as I entered University and got a chance to learn more about 
-                  computers and how they worked, I fell in love with coding. 
+                  browsing through internets. As I entered University and got a chance to learn more about 
+                  computers, I absolutely fell in love with software engineering. 
                   I had opportunities to develop in several areas but I found web developing the 
                   most entertaining as I was not only able to code but I was also able to design as well. 
                   Thus, during my 3rd and 4th year, I chose to focus mainly on web-dev projects and worked on several eCommerce websites.
-                  <br />As for experiences, I have 2 non-tech internships at GlaxoSmithKline 
+                  <br /><br />As for experiences, I have 2 non-tech internships at GlaxoSmithKline 
                   as a customer excellence team and AirBnB as a trust and safety team. 
                   From these experiences, I was able to gain knowledge of how companies 
                   communicate with their customers because I believe developers also need to 
