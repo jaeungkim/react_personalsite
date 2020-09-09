@@ -3,8 +3,8 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 var transporter = nodemailer.createTransport({
-  host: "smtp.googlemail.com",
-  port: 465,
+  host: "smtp.live.com",
+  port: 587,
   secure: true,
   auth: {
     user: process.env.email, // your email address to send email from
