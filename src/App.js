@@ -6,8 +6,7 @@ import Profile from './components/Profile';
 import About from './components/About';
 import Experience from './components/Experience';
 import Project from './components/Project';
-// import ContactForm from './components/ContactForm';
-import Contact from './components/Contact';
+import ContactForm from './components/ContactForm';
 
 class App extends Component {
   render() {
@@ -18,8 +17,7 @@ class App extends Component {
         <About />
         <Experience />
         <Project />
-        {/* <ContactForm /> */}
-        <Contact />
+        <ContactForm />
         <Footer />
        
       </>
