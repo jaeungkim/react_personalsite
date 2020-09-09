@@ -39,6 +39,4 @@ app.post('/send', (req, res) => {
   }
 });
 
-app.listen(3030, () => {
-  console.log('server start on port 3030');
-});
+app.listen(3030, "0.0.0.0");
