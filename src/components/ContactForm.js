@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Form, Button, Container, Row } from 'react-bootstrap';
-import axios from 'axios';
+import {Container, Row } from 'react-bootstrap';
 
 class ContactForm extends Component {
   constructor(props) {
