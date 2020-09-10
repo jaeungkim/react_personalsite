@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 
 class ContactForm extends Component {
   constructor(props) {
@@ -10,33 +10,6 @@ class ContactForm extends Component {
     };
   }
 
-  render() {
-    const { status } = this.state;
-    return (
-      <section className="custom_contact" id="contact">
-        <Container>
-          <div className="text-center mt-3">
-            <h1> Contact Me</h1>
-          </div>
-          <Row>
-            <form
-              onSubmit={this.submitForm}
-              action="https://formspree.io/xayprage"
-              method="POST"
-            >
-
-              <label>Email:</label>
-              <input type="email" name="email" />
-              <label>Message:</label>
-              <input type="text" name="message" />
-              {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-              {status === "ERROR" && <p>Ooops! There was an error.</p>}
-            </form>
-          </Row>
-        </Container>
-      </section>
-    );
-  }
   submitForm(ev) {
     ev.preventDefault();
     const form = ev.target;
@@ -54,6 +27,59 @@ class ContactForm extends Component {
       }
     };
     xhr.send(data);
+  }
+
+
+  render() {
+    const { status } = this.state;
+    return (
+      <section className="custom_contact" id="contact">
+        <Container>
+          <div className="text-center mt-3">
+            <h1> Contact Me</h1>
+          </div>
+          <Row className="justify-content-center">
+            <form
+              onSubmit={this.submitForm}
+              action="https://formspree.io/xayprage"
+              method="POST"
+            >
+              <Row>
+                <Col lg>
+                  <div className="form-group mt-2">
+                    <label for="name" className="font-weight-bold"> Name </label>
+                    <input name="name" id="name" type="text" className="form-control" placeholder="Your name..." />
+                  </div>
+                </Col>
+
+                <Col lg>
+                  <div className="form-group mt-2">
+                    <label for="email" className="font-weight-bold"> Email address </label>
+                    <input name="email" id="email" type="email" className="form-control" placeholder="Your email..." />
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col lg>
+                  <div className="form-group mt-2">
+                    <label for="comments" className="font-weight-bold"> Message </label>
+                    <textarea name="comments" id="comments" rows="4" className="form-control" placeholder="Your message..."></textarea>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col lg className="text-right">
+                  {status === "SUCCESS" && <p>Email has been sent! We will contact you shortly. Thank You.</p>}
+                  {status === "ERROR" && <p> Ooops! There was an error.</p>}
+                  <input type="submit" id="submit" name="send" className="btn btn-custom" value="Send Message"></input>
+
+                </Col>
+              </Row>
+            </form>
+          </Row>
+        </Container>
+      </section>
+    );
   }
 }
 
