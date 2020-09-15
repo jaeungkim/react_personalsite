@@ -27,7 +27,7 @@ class Project extends Component {
       <section className="custom_experience" id="work">
         <Container>
           <div className="text-center">
-            <h1 className = "title_section"> Education & Skills </h1>
+            <h1> Education & Skills </h1>
           </div>
           <Row>
             <Col md>
@@ -41,9 +41,6 @@ class Project extends Component {
                 onHide={this.handleClose}
                 dialogClassName="custom-modal"
               >
-                <Modal.Header closeButton>
-                  <Modal.Title>Course Lists</Modal.Title>
-                </Modal.Header>
                 <Modal.Body>
                   <Table responsive>
                     <thead>
@@ -127,9 +124,8 @@ class Project extends Component {
                   <Button variant="secondary" onClick={this.handleClose}> Close </Button>
                 </Modal.Footer>
               </Modal>
-
-</Col>
-<Col md>
+            </Col>
+            <Col md>
               <h3 className="experience_header"> Skills </h3>
 
               <ul className="dev-icons">
