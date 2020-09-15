@@ -27,12 +27,12 @@ class Project extends Component {
       <section className="custom_experience" id="work">
         <Container>
           <div className="text-center">
-            <h1> Education & Skills </h1>
+            <h1 className = "title_section"> Education & Skills </h1>
           </div>
           <Row>
             <Col md>
               <h3 className="experience_header"> Education </h3>
-              <img className="mb-4 mt-4 w-75 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
+              <img className="mb-4 w-100 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
               <div className="course_button">
                 <Button variant="primary" onClick={this.handleShow}> Course History </Button>
               </div>

@@ -27,7 +27,7 @@ class Project extends Component {
       <section className="custom_project" id="project">
         <Container>
           <div className="text-center mt-3">
-            <h1> Projects </h1>
+            <h1 className = "title_section"> Projects </h1>
           </div>
           <Row>
             <Col md>

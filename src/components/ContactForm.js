@@ -36,7 +36,7 @@ class ContactForm extends Component {
       <section className="custom_contact" id="contact">
         <Container>
           <div className="text-center mt-3">
-            <h1> Contact Me</h1>
+            <h1 className = "title_section"> Contact Me</h1>
           </div>
           <Row className="justify-content-center">
             <form

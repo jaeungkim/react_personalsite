@@ -6,8 +6,8 @@ class About extends Component {
     return (
       <section className="custom_about" id="about">
         <Container>
-          <div className="mb-3 text-center">
-            <h1> About Me </h1>
+          <div className="text-center">
+            <h1 className = "title_section"> About Me </h1>
           </div>
           <Row>
             <Col md>
