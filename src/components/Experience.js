@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Table, Modal, Container, Row, Col } from 'react-bootstrap';
+import { FaHtml5, FaCss3, FaSass, FaJs, FaReact, FaNode, FaNpm, FaDatabase, FaPython, FaJava, FaPhp } from 'react-icons/fa';
 
 class Project extends Component {
   constructor(props, context) {
@@ -24,16 +25,17 @@ class Project extends Component {
     return (
 
       <section className="custom_experience" id="work">
-
         <Container>
           <div className="text-center">
             <h1> Education & Skills </h1>
           </div>
           <Row>
-
             <Col md>
-              <img className="mb-3 mt-3 w-100" src="../images/ubc_logo3.png" alt=""></img>
-              <Button variant="primary" onClick={this.handleShow}> Course History </Button>
+              <h3 className="experience_header"> Education </h3>
+              <img className="mb-4 mt-4 w-75 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
+              <div className="course_button">
+                <Button variant="primary" onClick={this.handleShow}> Course History </Button>
+              </div>
               <Modal
                 show={this.state.show}
                 onHide={this.handleClose}
@@ -43,7 +45,6 @@ class Project extends Component {
                   <Modal.Title>Course Lists</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-
                   <Table responsive>
                     <thead>
                       <tr>
@@ -56,10 +57,9 @@ class Project extends Component {
                       <tr>
                         <td><b>Capstone Software Engineering Project</b></td>
                         <td>COSC 499</td>
-                        <td>A capstone project requiring team software development for an actual client. 
+                        <td>A capstone project requiring team software development for an actual client.
                           Students must produce a comprehensive report and deliver a formal presentation.</td>
                       </tr>
-
                       <tr>
                         <td><b>Agile Software Development</b></td>
                         <td>COSC 419L</td>
@@ -118,11 +118,9 @@ class Project extends Component {
                       </tr>
                       <tr><td><b>Machine Architecture</b></td>
                         <td>COSC 211</td>
-                        <td>Organization and design of computer systems and their impact on the practice of software development. Instruction set architecture and assembly programming languages, design of central processing units (CPU), memory hierarchy and cache organization, input and output programming.</td> 
+                        <td>Organization and design of computer systems and their impact on the practice of software development. Instruction set architecture and assembly programming languages, design of central processing units (CPU), memory hierarchy and cache organization, input and output programming.</td>
                       </tr>
-
                     </tbody>
-
                   </Table>
                 </Modal.Body>
                 <Modal.Footer>
@@ -130,10 +128,37 @@ class Project extends Component {
                 </Modal.Footer>
               </Modal>
 
-            </Col>
+</Col>
+<Col md>
+              <h3 className="experience_header"> Skills </h3>
 
-            <Col md>
-              <p> Skills</p>
+              <ul className="dev-icons">
+                <p className="skill_description"> Front End</p>
+                <li className="skill-inline-item"><FaHtml5 /><p className="skill-name">Html-5</p></li>
+                <li className="skill-inline-item"><FaCss3 /><p className="skill-name">Css-3</p></li>
+                <li className="skill-inline-item"><FaSass /><p className="skill-name">Sass</p></li>
+                <li className="skill-inline-item"><FaJs /><p className="skill-name">JavaScript</p></li>
+                <li className="skill-inline-item"><FaReact /><p className="skill-name">ReactJs</p></li>
+              </ul>
+
+
+              <ul className="dev-icons">
+                <p className="skill_description"> Back End</p>
+                <li className="skill-inline-item"><FaNode /><p className="skill-name">NodeJs</p> </li>
+                <li className="skill-inline-item"><FaNpm /><p className="skill-name">Npm</p></li>
+                <li className="skill-inline-item"><FaPython /><p className="skill-name">Python</p></li>
+                <li className="skill-inline-item"><FaJava /><p className="skill-name">Java</p></li>
+                <li className="skill-inline-item"><FaPhp /><p className="skill-name">PHP</p></li>
+              </ul>
+
+
+              <ul className="dev-icons">
+                <p className="skill_description"> Databases</p>
+                <li className="skill-inline-item"><FaDatabase /><p className="skill-name">SQL</p></li>
+              </ul>
+
+
+
             </Col>
 
           </Row>

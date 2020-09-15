@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Carousel, Container, Row, Col } from 'react-bootstrap';
 
 class About extends Component {
   render() {
@@ -11,54 +11,57 @@ class About extends Component {
           </div>
           <Row>
             <Col md>
-              <div id="carouselExampleIndicators" className="mt-2 carousel slide" data-ride="carousel">
-                <ol className="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img className="d-block w-100" src="../images/profile_1.jpeg" alt="First slide"></img>
-                  </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src="../images/profile_2.jpeg" alt="Second slide"></img>
-                  </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src="../images/profile_3.jpeg" alt="Third slide"></img>
-                  </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src="../images/profile_4.jpeg" alt="Fourth slide"></img>
-                  </div>
-                </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span className="sr-only">Next</span>
-                </a>
-              </div>
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="../images/profile_1.jpeg"
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="../images/profile_2.jpeg"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="../images/profile_3.jpeg"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="../images/profile_4.jpeg"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </Col>
 
             <Col md>
               <div>
                 <p className="mt-2 about_explanation">
-                  I am a dedicated software developer who recently graduated 
+                  I am a dedicated software developer who recently graduated
                   from the University of British Columbia with B.Sc in Computer Science.
                   <br /><br />When I was young, I loved playing with computers whether
-                  it was just playing with pre-installed computer games like Pinball or just 
-                  browsing through internets. As I entered University and got a chance to learn more about 
-                  computers, I absolutely fell in love with software engineering. 
-                  I had opportunities to develop in several areas but I found web developing the 
-                  most entertaining as I was not only able to code but I was also able to design as well. 
+                  it was just playing with pre-installed computer games like Pinball or just
+                  browsing through internets. As I entered University and got a chance to learn more about
+                  computers, I absolutely fell in love with software engineering.
+                  I had opportunities to develop in several areas but I found web developing the
+                  most entertaining as I was not only able to code but I was also able to design as well.
                   Thus, during my 3rd and 4th year, I chose to focus mainly on web-dev projects and worked on several eCommerce websites.
-                  <br /><br />As for experiences, I have 2 non-tech internships at GlaxoSmithKline 
-                  as a customer excellence team and AirBnB as a trust and safety team. 
-                  From these experiences, I was able to gain knowledge of how companies 
-                  communicate with their customers because I believe developers also need to 
+                  <br /><br />As for experiences, I have 2 non-tech internships at GlaxoSmithKline
+                  as a customer excellence team and AirBnB as a trust and safety team.
+                  From these experiences, I was able to gain knowledge of how companies
+                  communicate with their customers because I believe developers also need to
                   know how to handle customer issues.
                 </p>
               </div>
