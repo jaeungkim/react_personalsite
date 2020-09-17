@@ -24,13 +24,13 @@ class Project extends Component {
 
     return (
 
-      <section className="custom_project" id="project">
+      <section className="custom_white" id="project">
+        <div className="text-center">
+          <h1> Projects </h1>
+        </div>
         <Container>
-          <div className="text-center mt-3">
-            <h1 className = "title_section"> Projects </h1>
-          </div>
           <Row>
-            <Col md>
+            <Col md className="mt-4">
               <div className="text-center rounded ">
                 <h5 className="font-weight-bold mb-0 font-italic">Lental.Inc</h5>
               </div>
@@ -44,7 +44,7 @@ class Project extends Component {
                 </Modal.Header>
                 <Modal.Body>
 
-                  <iframe title = "lental" width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe title="lental" width="100%" height="500" src="https://www.youtube.com/embed/sIZqCxLnLSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 </Modal.Body>
                 <Modal.Footer>

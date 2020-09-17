@@ -4,13 +4,14 @@ import { Carousel, Container, Row, Col } from 'react-bootstrap';
 class About extends Component {
   render() {
     return (
-      <section className="custom_about" id="about">
-        <Container>
+      <section className="custom_white" id="about">
           <div className="text-center">
-            <h1 className = "title_section"> About Me </h1>
+            <h1> About Me </h1>
           </div>
+          <Container>
           <Row>
-            <Col md>
+
+            <Col md className = "mt-4 justify-content-center">
               <Carousel>
                 <Carousel.Item>
                   <img

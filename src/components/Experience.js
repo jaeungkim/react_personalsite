@@ -24,13 +24,13 @@ class Project extends Component {
   render() {
     return (
 
-      <section className="custom_experience" id="work">
-        <Container>
+      <section className="custom_grey" id="work"> 
           <div className="text-center">
             <h1> Education & Skills </h1>
           </div>
+          <Container>
           <Row>
-            <Col md>
+            <Col md className = "mt-4">
               <h3 className="experience_header"> Education </h3>
               <img className="mb-4 w-100 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
               <div className="course_button">

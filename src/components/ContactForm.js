@@ -33,16 +33,17 @@ class ContactForm extends Component {
   render() {
     const { status } = this.state;
     return (
-      <section className="custom_contact" id="contact">
+      <section className="custom_grey" id="contact">
+        <div className="text-center">
+          <h1> Contact Me</h1>
+        </div>
         <Container>
-          <div className="text-center mt-3">
-            <h1 className = "title_section"> Contact Me</h1>
-          </div>
           <Row className="justify-content-center">
             <form
               onSubmit={this.submitForm}
               action="https://formspree.io/xayprage"
               method="POST"
+              className="pt-2"
             >
               <Row>
                 <Col lg>

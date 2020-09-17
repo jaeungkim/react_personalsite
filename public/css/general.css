@@ -18,11 +18,21 @@
 ============================*/
 
 .example{
-  position:absolute;
+  position: absolute;
 }
-.title_section{
-  margin-top: 2em;
-  margin-bottom: 2em;
+.custom_white{
+  font-family: ubuntu;
+  height: 100%;
+  background-color:white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.custom_grey{
+  font-family: ubuntu;
+  height: 100%;
+  background-color: rgb(240, 240, 240);
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 /*==========================
         2.NAVBAR
@@ -147,13 +157,6 @@
 /*==========================
         4. ABOUT
 ============================*/
-
-.custom_about{
-  font-family: ubuntu;
-  height: 100%;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
 .about_explanation{
   font-size: 2vh;
   /* font-family: 'Roboto', sans-serif; */
@@ -166,14 +169,6 @@
 /*==========================
         5. Experience
 ============================*/
-
-.custom_experience{
-  height: 100%;
-  background-color: #f5f5f5;
-  font-family: ubuntu;
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
 .course_button{
   margin-top: 1em;
   margin-bottom: 1em;
@@ -186,9 +181,7 @@
   font-size: 1.2vw;
 }
 .experience_header{
-  margin-bottom: 2em;
   text-align: center;
-  margin-top: 2em;
 }
 .dev-icons {
   padding-left: 0;
@@ -214,24 +207,10 @@
         6. Projects
 ============================*/
 
-.custom_project{
-  font-family: ubuntu;
-  height: 100%;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
 
 /*==========================
         7. Contact
 ============================*/
-
-.custom_contact{
-  font-family: ubuntu;
-  background-color: #f5f5f5;
-  height: 100%;
-  padding-top: 0.1em;
-}
-
 .success{
   color: #0ff40f;
 }
