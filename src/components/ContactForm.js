@@ -33,7 +33,7 @@ class ContactForm extends Component {
   render() {
     const { status } = this.state;
     return (
-      <section className="custom_grey" id="contact">
+      <section className="custom_white" id="contact">
         <div className="text-center">
           <h1> Contact Me</h1>
         </div>

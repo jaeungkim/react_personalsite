@@ -24,7 +24,7 @@ class Project extends Component {
 
     return (
 
-      <section className="custom_white" id="project">
+      <section className="custom_grey" id="project">
         <div className="text-center">
           <h1> Projects </h1>
         </div>

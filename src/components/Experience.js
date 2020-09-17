@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { Button, Table, Modal, Container, Row, Col } from 'react-bootstrap';
-import { FaHtml5, FaCss3, FaSass, FaJs, FaReact, FaNode, FaNpm, FaDatabase, FaPython, FaJava, FaPhp } from 'react-icons/fa';
 
-class Project extends Component {
+class Experience extends Component {
   constructor(props, context) {
     super(props, context);
-
     this.handleShow = this.handleShow.bind(this);
     this.handleClose = this.handleClose.bind(this);
 
@@ -24,15 +22,14 @@ class Project extends Component {
   render() {
     return (
 
-      <section className="custom_grey" id="work"> 
-          <div className="text-center">
-            <h1> Education & Skills </h1>
-          </div>
-          <Container>
+      <section className="custom_grey" id="work">
+        <div className="text-center">
+          <h1> Education & Experience </h1>
+        </div>
+        <Container>
           <Row>
-            <Col md className = "mt-4">
-              <h3 className="experience_header"> Education </h3>
-              <img className="mb-4 w-100 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
+            <Col md className="mt-4">
+              <img className="mb-4 w-50 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
               <div className="course_button">
                 <Button variant="primary" onClick={this.handleShow}> Course History </Button>
               </div>
@@ -125,44 +122,10 @@ class Project extends Component {
                 </Modal.Footer>
               </Modal>
             </Col>
-            <Col md>
-              <h3 className="experience_header"> Skills </h3>
-
-              <ul className="dev-icons">
-                <p className="skill_description"> Front End</p>
-                <li className="skill-inline-item"><FaHtml5 /><p className="skill-name">Html-5</p></li>
-                <li className="skill-inline-item"><FaCss3 /><p className="skill-name">Css-3</p></li>
-                <li className="skill-inline-item"><FaSass /><p className="skill-name">Sass</p></li>
-                <li className="skill-inline-item"><FaJs /><p className="skill-name">JavaScript</p></li>
-                <li className="skill-inline-item"><FaReact /><p className="skill-name">ReactJs</p></li>
-              </ul>
-
-
-              <ul className="dev-icons">
-                <p className="skill_description"> Back End</p>
-                <li className="skill-inline-item"><FaNode /><p className="skill-name">NodeJs</p> </li>
-                <li className="skill-inline-item"><FaNpm /><p className="skill-name">Npm</p></li>
-                <li className="skill-inline-item"><FaPython /><p className="skill-name">Python</p></li>
-                <li className="skill-inline-item"><FaJava /><p className="skill-name">Java</p></li>
-                <li className="skill-inline-item"><FaPhp /><p className="skill-name">PHP</p></li>
-              </ul>
-
-
-              <ul className="dev-icons">
-                <p className="skill_description"> Databases</p>
-                <li className="skill-inline-item"><FaDatabase /><p className="skill-name">SQL</p></li>
-              </ul>
-
-
-
-            </Col>
-
           </Row>
         </Container>
       </section>
-
-
     );
   }
 }
-export default Project;
+export default Experience;

@@ -82,17 +82,28 @@ class MainHeader extends Component {
                 style={{ cursor: "pointer" }}
               > About </Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
                 className="active nav-link"
-                to="blog"
+                to="work"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > Blog </Link>
-            </li> */}
+              > Experiences </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="active nav-link"
+                to="skill"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                style={{ cursor: "pointer" }}
+              > Skills </Link>
+            </li>
             <li className="nav-item">
               <Link
                 className="active nav-link"
