@@ -29,7 +29,7 @@ class Experience extends Component {
         <Container>
           <Row>
             <Col md className="mt-4">
-              <img className="mb-4 w-50 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
+              <img className="mb-4 w-100 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
               <div className="course_button">
                 <Button variant="primary" onClick={this.handleShow}> Course History </Button>
               </div>
