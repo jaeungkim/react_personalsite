@@ -186,23 +186,9 @@
 }
 .dev-icons {
   padding-left: 0;
-  list-style: none;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
   margin-top: 1em;
-}
-.skill_description{
-  margin:0;
-}
-.skill-inline-item{
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: 20px;
-  font-size: 3em;
-  text-align: center;
-}
-.skill-name{
-  font-size: 0.2em;
 }
 
 /*==========================
