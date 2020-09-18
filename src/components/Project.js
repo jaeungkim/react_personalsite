@@ -36,6 +36,7 @@ class Project extends Component {
               </div>
               <Button variant="" onClick={() => this.handleShow('lental')}> <img className="w-50" src="../images/lental_pic.png" alt=""></img> </Button>
               <Modal
+                size="lg"
                 show={this.state.show === 'lental'}
                 onHide={this.handleClose}
                 dialogClassName="custom-modal"

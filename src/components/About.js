@@ -10,7 +10,6 @@ class About extends Component {
           </div>
           <Container>
           <Row>
-
             <Col md className = "mt-4 justify-content-center">
               <Carousel>
                 <Carousel.Item>
@@ -49,7 +48,7 @@ class About extends Component {
 
             <Col md>
               <div>
-                <p className="mt-2 about_explanation">
+                <p className="mt-4 about_explanation">
                   I am a dedicated software developer who recently graduated
                   from the University of British Columbia with B.Sc in Computer Science.
                   <br /><br />When I was young, I loved playing with computers whether

@@ -176,9 +176,10 @@
   align-content: center;
 }
 .custom-modal{
-  max-width: 90%!important;
   text-align: left; 
   font-size: 1.2vw;
+  position: absolute;
+
 }
 .experience_header{
   text-align: center;
@@ -202,14 +203,6 @@
 }
 .skill-name{
   font-size: 0.2em;
-}
-.custom_hello{
-  height: 500px;
-  text-align: center;
-}
-.hmm{
-  position: relative !important ;
-  justify-content: center !important;
 }
 
 /*==========================
