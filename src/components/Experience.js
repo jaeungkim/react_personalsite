@@ -31,7 +31,7 @@ class Experience extends Component {
             <Col md className="mt-4">
               <img className="mb-4 w-75 mx-auto d-block" src="../images/ubc_logo3.png" alt=""></img>
               <div className="course_button">
-                <Button variant="primary" onClick={this.handleShow}> Course History </Button>
+                <Button variant = "default" className = "coursehistory_button" onClick={this.handleShow}> Course History </Button>
               </div>
               <Modal
                 show={this.state.show}

@@ -175,14 +175,29 @@
   text-align: center;
   align-content: center;
 }
+.course_button >.btn {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(16, 142, 180);
+}
+.course_button >.btn:hover{
+  color: rgb(16, 142, 180);
+  background-color: white;
+}
 .custom-modal{
   text-align: left; 
   font-size: 1.2vw;
   position: absolute;
 
 }
-.experience_header{
-  text-align: center;
+.myClass > .nav-link{
+  color: black;
+}
+.myClass > .nav-link:hover{
+  color: rgb(16, 142, 180);
 }
 .dev-icons {
   padding-left: 0;
@@ -190,6 +205,7 @@
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
 
 /*==========================
         6. Projects

@@ -26,138 +26,137 @@ export default class Skills extends Component {
         <Container>
           <Row>
             <Col md>
-              <Tabs className="justify-content-center text-center" defaultActiveKey="all">
+              <Tabs className = "myClass justify-content-center text-center" defaultActiveKey="all">
                 <Tab eventKey="all" title="All">
                   <Row>
                     <Col md>
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={html5} /> Html-5</h4>
+                        <h4 className="skill-name">Html-5 <Icon icon={html5} /></h4>
                         <ProgressBar striped variant="info" animated now={90} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={fileTypeCss} />  Css-3</h4>
+                        <h4 className="skill-name">Css-3 <Icon icon={fileTypeCss} /></h4>
                         <ProgressBar striped variant="info" animated now={90} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={sassIcon} /> Sass</h4>
+                        <h4 className="skill-name">Sass <Icon icon={sassIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={80} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={javascriptIcon} /> JavaScript</h4>
+                        <h4 className="skill-name">JavaScript <Icon icon={javascriptIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={90} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={fileTypeReactts} /> ReactJs</h4>
+                        <h4 className="skill-name">ReactJs <Icon icon={fileTypeReactts} /></h4>
                         <ProgressBar striped variant="info" animated now={60} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={reduxIcon} /> Redux </h4>
+                        <h4 className="skill-name">Redux <Icon icon={reduxIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={40} />
                       </div>
 
                     </Col>
                     <Col md>
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={nodejsIcon} /> NodeJs</h4>
+                        <h4 className="skill-name">NodeJs <Icon icon={nodejsIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={40} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={npmIcon} /> Npm</h4>
+                        <h4 className="skill-name">Npm <Icon icon={npmIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={50} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={pythonIcon} /> Python</h4>
+                        <h4 className="skill-name">Python <Icon icon={pythonIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={80} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={javaIcon} /> Java</h4>
+                        <h4 className="skill-name">Java <Icon icon={javaIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={90} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={phpIcon} /> PHP</h4>
+                        <h4 className="skill-name">PHP <Icon icon={phpIcon} /></h4>
                         <ProgressBar striped variant="info" animated now={80} />
                       </div>
 
                       <div className="dev-icons">
-                        <h4 className="skill-name"><Icon icon={fileTYpeSql} /> SQL</h4>
+                        <h4 className="skill-name">SQL <Icon icon={fileTYpeSql} /></h4>
                         <ProgressBar striped variant="info" animated now={70} />
                       </div>
                     </Col>
                   </Row>
                 </Tab>
 
-
                 <Tab eventKey="frontend" title="Front-End">
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={html5} /> Html-5</h4>
+                    <h4 className="skill-name">Html-5 <Icon icon={html5} /></h4>
                     <ProgressBar striped variant="info" animated now={90} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={fileTypeCss} />  Css-3</h4>
+                    <h4 className="skill-name">Css-3 <Icon icon={fileTypeCss} /></h4>
                     <ProgressBar striped variant="info" animated now={90} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={sassIcon} /> Sass</h4>
+                    <h4 className="skill-name">Sass <Icon icon={sassIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={80} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={javascriptIcon} /> JavaScript</h4>
+                    <h4 className="skill-name">JavaScript <Icon icon={javascriptIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={90} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={fileTypeReactts} /> ReactJs</h4>
+                    <h4 className="skill-name">ReactJs <Icon icon={fileTypeReactts} /></h4>
                     <ProgressBar striped variant="info" animated now={60} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={reduxIcon} /> Redux </h4>
+                    <h4 className="skill-name">Redux <Icon icon={reduxIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={40} />
                   </div>
                 </Tab>
 
                 <Tab eventKey="backend" title="Back-End">
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={nodejsIcon} /> NodeJs</h4>
+                    <h4 className="skill-name">NodeJs <Icon icon={nodejsIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={40} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={npmIcon} /> Npm</h4>
+                    <h4 className="skill-name">Npm <Icon icon={npmIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={50} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={pythonIcon} /> Python</h4>
+                    <h4 className="skill-name">Python <Icon icon={pythonIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={80} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={javaIcon} /> Java</h4>
+                    <h4 className="skill-name">Java <Icon icon={javaIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={90} />
                   </div>
 
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={phpIcon} /> PHP</h4>
+                    <h4 className="skill-name">PHP <Icon icon={phpIcon} /></h4>
                     <ProgressBar striped variant="info" animated now={80} />
                   </div>
                 </Tab>
 
                 <Tab eventKey="database" title="Database">
                   <div className="dev-icons">
-                    <h4 className="skill-name"><Icon icon={fileTYpeSql} /> SQL</h4>
+                    <h4 className="skill-name">SQL <Icon icon={fileTYpeSql} /></h4>
                     <ProgressBar striped variant="info" animated now={70} />
                   </div>
                 </Tab>
