@@ -37,8 +37,8 @@ class ContactForm extends Component {
         <div className="text-center">
           <h1> Contact Me</h1>
         </div>
-        <Container>
-          <Row className="justify-content-center">
+        <Container className = "w-75 justify-content-center text-left">
+          <Row>
             <Container>
               <form
                 onSubmit={this.submitForm}
