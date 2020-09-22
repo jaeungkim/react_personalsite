@@ -33,7 +33,7 @@ export default class Skills extends Component {
             </Col>
             <Col md>
               <Container>
-                <Tabs className="myClass justify-content-center text-center" defaultActiveKey="frontend">
+                <Tabs className="mt-2 mb-2 myClass justify-content-center text-center" defaultActiveKey="frontend">
                   <Tab eventKey="frontend" title="Front-End">
                     <div className="dev-icons">
                       <h4 className="skill-name">Html-5 <Icon icon={html5} /></h4>
