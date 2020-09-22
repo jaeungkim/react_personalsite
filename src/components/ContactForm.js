@@ -37,7 +37,7 @@ class ContactForm extends Component {
         <div className="text-center">
           <h1> Contact Me</h1>
         </div>
-        <Container className = "w-50 justify-content-center text-left">
+        <Container className = "w-75 justify-content-center text-left">
           <Row>
             <Container>
               <form

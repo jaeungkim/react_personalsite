@@ -214,6 +214,22 @@
   margin-bottom: 1em;
   margin-top: 1em;
 }
+.ill_image{
+  border-radius: 50%;
+  margin: auto auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 15px solid rgb(75, 132, 170);
+}
+.ill_image:hover{
+  border: 15px solid rgb(16, 142, 180);
+  transition: 0.4s;
+}
 
 
 /*==========================
