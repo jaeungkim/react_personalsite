@@ -235,6 +235,15 @@
 /*==========================
         7. Projects
 ============================*/
+/* .card_custom{
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  max-width: 300px;
+} */
+.github_card{
+  text-align: center;
+}
 
 
 /*==========================

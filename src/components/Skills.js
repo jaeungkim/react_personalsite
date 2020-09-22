@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Tab, Tabs, ProgressBar, Container, Row, Col } from 'react-bootstrap';
-import ReactRoundedImage from 'react-rounded-image';
-import MyPhoto from '../images/pp_1.jpeg';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import javascriptIcon from '@iconify/icons-logos/javascript';
 import fileTypeCss from '@iconify/icons-vscode-icons/file-type-css';
 import reduxIcon from '@iconify/icons-logos/redux';

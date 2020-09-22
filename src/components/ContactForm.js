@@ -29,7 +29,6 @@ class ContactForm extends Component {
     xhr.send(data);
   }
 
-
   render() {
     const { status } = this.state;
     return (

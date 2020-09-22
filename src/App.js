@@ -21,7 +21,6 @@ class App extends Component {
         <Project />
         <ContactForm />
         <Footer />
-       
       </>
     );
   }
