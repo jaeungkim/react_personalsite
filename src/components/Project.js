@@ -32,37 +32,28 @@ class Project extends Component {
           <Row className="justify-content-md-center">
             <Col sm>
               <div className="github_card">
-                <a href="https://github.com/jaeungkim/React_Portfolio"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/React_Portfolio.png" width="400px" /></a>
+                <a href="https://github.com/jaeungkim/React_Portfolio"><img className='mt-2 mb-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/React_Portfolio.png" /></a>
+              </div>
+
+              <div className="github_card">
+                <a href="https://github.com/jaeungkim/Resume-with-JSON"><img className='mt-2 mb-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/Resume-with-JSON.png" /></a>
+              </div>
+
+              <div className="github_card">
+                <a href="https://github.com/jaeungkim/CaffeineHolic_website"><img className='mt-2 mb-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/CaffeineHolic_website.png" /></a>
               </div>
             </Col>
-
             <Col sm>
+
               <div className="github_card">
-                <a href="https://github.com/jaeungkim/Resume-with-JSON"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/Resume-with-JSON.png" width="400px" /></a>
+                <a href="https://github.com/jaeungkim/Lental_website"><img className='mt-2 mb-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/Lental_website.png" /></a>
               </div>
-            </Col>
 
-            <Col sm>
               <div className="github_card">
-                <a href="https://github.com/jaeungkim/CaffeineHolic_website"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/CaffeineHolic_website.png" width="400px" /></a>
+                <a href="https://github.com/jaeungkim/COSC419"><img className='mt-2 mb-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/COSC419.png" /></a>
               </div>
-            </Col>
-
-            <Col sm>
               <div className="github_card">
-                <a href="https://github.com/jaeungkim/Lental_website"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/Lental_website.png" width="400px" /></a>
-              </div>
-            </Col>
-
-            <Col sm>
-              <div className="github_card">
-                <a href="https://github.com/jaeungkim/COSC419"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/COSC419.png" width="400px" /></a>
-              </div>
-            </Col>
-
-            <Col sm>
-              <div className="github_card">
-                <a href="https://github.com/jaeungkim/COSC315"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/COSC315.png" width="400px" /></a>
+                <a href="https://github.com/jaeungkim/COSC315"><img className='mt-2 mb-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/COSC315.png" /></a>
               </div>
             </Col>
 
