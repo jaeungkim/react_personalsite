@@ -224,11 +224,11 @@
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
-  border: 10px solid rgb(16, 142, 180);
+  border: 7px solid rgb(16, 142, 180);
 }
 .ill_image:hover{
-  border: 10px solid white;
-  transition: 0.6s;
+  box-shadow: 0px 0px 9px 4px rgb(94, 177, 202);
+  animation: glow 0.5s linear infinite alternate;
 }
 
 
