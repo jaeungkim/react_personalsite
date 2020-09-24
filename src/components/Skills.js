@@ -26,7 +26,7 @@ export default class Skills extends Component {
           <Row>
             <Col md>
               <Container>
-                <img className='ill_image' src={require("../images/pp_1.jpeg")}></img>
+                <img alt = "" className='ill_image' src={require("../images/pp_1.jpeg")}></img>
               </Container>
             </Col>
             <Col md>
