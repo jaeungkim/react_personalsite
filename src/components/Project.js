@@ -54,7 +54,7 @@ class Project extends Component {
               </div>
 
               <div className="github_card">
-                <a href="https://github.com/jaeungkim/COSC419"><img className='mb-2 mt-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/COS2C419.png" /></a>
+                <a href="https://github.com/jaeungkim/COSC419"><img className='mb-2 mt-2 img-fluid rounded' src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/jaeungkim/COSC419.png" /></a>
               </div>
             </Col>
 
