@@ -15,7 +15,7 @@ class About extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="../images/profile_1.jpeg"
+                    src="../images/profile_1.png"
                     alt="First slide"
                   />
                 </Carousel.Item>
@@ -23,7 +23,7 @@ class About extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="../images/profile_2.jpeg"
+                    src="../images/profile_2.png"
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -31,7 +31,7 @@ class About extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="../images/profile_3.jpeg"
+                    src="../images/profile_3.png"
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -39,7 +39,7 @@ class About extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="../images/profile_4.jpeg"
+                    src="../images/profile_4.png"
                     alt="Third slide"
                   />
                 </Carousel.Item>
