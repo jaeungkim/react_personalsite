@@ -8,7 +8,7 @@ class Footer extends Component {
           <div className="row pt-4 pb-4">
             <div className="col-lg-12">
               <div className="float-left float_none mt-2 mb-2">
-                <p className="copy-rights text-muted mb-0">2020 &copy; Jae Kim</p>
+                <p className="copy-rights text-muted mb-0">2021 &copy; Jae Kim</p>
               </div>
               <div className="float-right float_none mt-2 mb-2">
                 <ul className="list-inline fot_social mb-0">
