@@ -102,7 +102,7 @@ class MainHeader extends Component {
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > Skills </Link>
+              > Skillsd </Link>
             </li>
             <li className="nav-item">
               <Link
