@@ -20,7 +20,7 @@ export default class Skills extends Component {
       <div className="white_background">
         <section className="custom_section" id="skill">
           <div className="text-center">
-            <h1> What I Do </h1>
+            <h1>What I Do</h1>
           </div>
           <Container>
             <Row>
