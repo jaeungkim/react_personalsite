@@ -11,7 +11,7 @@ class MainHeader extends Component {
     };
   }
   componentDidMount() {
-    this.listener = document.addEventListener("scroll", (e) => {
+    this.listener = document.addEventListener("scroll", () => {
       var scrolled = document.scrollingElement.scrollTop;
       if (scrolled >= 120) {
         if (this.state.status !== "nav") {

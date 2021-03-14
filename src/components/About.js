@@ -73,6 +73,7 @@ class About extends Component {
                         className="catalyx_link"
                         href="https://catalyx.io/home"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         Catalyx.io{" "}

@@ -49,7 +49,7 @@ class ContactForm extends Component {
                   <Row>
                     <Col lg>
                       <div className="form-group mt-2">
-                        <label for="name" className="font-weight-bold">
+                        <label htmlFor="name" className="font-weight-bold">
                           {" "}
                           Name{" "}
                         </label>
@@ -65,7 +65,7 @@ class ContactForm extends Component {
 
                     <Col lg>
                       <div className="form-group mt-2">
-                        <label for="email" className="font-weight-bold">
+                        <label htmlFor="email" className="font-weight-bold">
                           {" "}
                           Email address{" "}
                         </label>
@@ -82,7 +82,7 @@ class ContactForm extends Component {
                   <Row>
                     <Col lg>
                       <div className="form-group mt-2">
-                        <label for="comments" className="font-weight-bold">
+                        <label htmlFor="comments" className="font-weight-bold">
                           {" "}
                           Message{" "}
                         </label>
