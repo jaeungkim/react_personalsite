@@ -25,19 +25,22 @@
 .example{
   position: absolute;
 }
-.custom_white{
-  font-family: ubuntu;
-  height: 100%;
+.white_background{
   background-color:white;
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
-.custom_grey{
+.grey_background{
+  background-color: rgb(240, 240, 240);
+}
+.custom_section{
   font-family: ubuntu;
   height: 100%;
-  background-color: rgb(240, 240, 240);
   padding-top: 2em;
   padding-bottom: 2em;
+  max-width: 1440px;
+  margin: auto auto;
+}
+.title{
+  margin-bottom: 2rem;
 }
 /*==========================
         2.NAVBAR
@@ -162,13 +165,37 @@
 /*==========================
         4. ABOUT
 ============================*/
+.profile_img_div{
+  max-width: 450px;
+  margin: auto auto;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  z-index: 1;
+}
+.profile_img{
+  z-index: 0;
+}
+.profile_img::after{
+  border-radius: 10px;
+}
 .about_explanation{
   font-size: 2vh;
   /* font-family: 'Roboto', sans-serif; */
   font-weight: 500;
+  margin: auto;
+  padding: 10px;
 }
 .carousel-indicators li{
   display:none;
+}
+.catalyx_link{
+  color: #AA70FF;
+}
+.catalyx_link:hover{
+  text-decoration: none;
+  color: #8234f8;
 }
 
 /*==========================
@@ -260,6 +287,10 @@
 /*==========================
         8. Contact
 ============================*/
+.contact_form{
+  width: 50%; 
+  margin: auto auto;
+}
 .success{
   color: #0ff40f;
 }
@@ -284,5 +315,9 @@
   }
   .social_bar{
     bottom: 20vh;
+  }
+  .contact_form{
+    width: 75%;
+    margin: auto auto;
   }
 }

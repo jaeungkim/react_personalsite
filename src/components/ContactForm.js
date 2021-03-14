@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from "react-bootstrap";
 
 class ContactForm extends Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
@@ -32,58 +32,96 @@ class ContactForm extends Component {
   render() {
     const { status } = this.state;
     return (
-      <section className="custom_white" id="contact">
-        <div className="text-center">
-          <h1> Contact Me</h1>
-        </div>
-        <Container className = "w-75 justify-content-center text-left">
-          <Row>
-            <Container>
-              <form
-                onSubmit={this.submitForm}
-                action="https://formspree.io/xayprage"
-                method="POST"
-                className="pt-2"
-              >
-                <Row>
-                  <Col lg>
-                    <div className="form-group mt-2">
-                      <label for="name" className="font-weight-bold"> Name </label>
-                      <input name="name" id="name" type="text" className="form-control" placeholder="Your name..." />
-                    </div>
-                  </Col>
+      <div className="white_background">
+        <section className="custom_section" id="contact">
+          <div className="text-center">
+            <h1> Contact Me</h1>
+          </div>
+          <Container className= "justify-content-center text-left">
+            <Row>
+              <Container>
+                <form
+                  onSubmit={this.submitForm}
+                  action="https://formspree.io/xayprage"
+                  method="POST"
+                  className="pt-2 contact_form"
+                >
+                  <Row>
+                    <Col lg>
+                      <div className="form-group mt-2">
+                        <label for="name" className="font-weight-bold">
+                          {" "}
+                          Name{" "}
+                        </label>
+                        <input
+                          name="name"
+                          id="name"
+                          type="text"
+                          className="form-control"
+                          placeholder="Your name..."
+                        />
+                      </div>
+                    </Col>
 
-                  <Col lg>
-                    <div className="form-group mt-2">
-                      <label for="email" className="font-weight-bold"> Email address </label>
-                      <input name="email" id="email" type="email" className="form-control" placeholder="Your email..." />
-                    </div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col lg>
-                    <div className="form-group mt-2">
-                      <label for="comments" className="font-weight-bold"> Message </label>
-                      <textarea name="comments" id="comments" rows="4" className="form-control" placeholder="Your message..."></textarea>
-                    </div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col lg className="text-right">
-                    {status === "SUCCESS" && <p>Email has been sent! We will contact you shortly. Thank You.</p>}
-                    {status === "ERROR" && <p> Ooops! There was an error.</p>}
-                    <input type="submit" id="submit" name="send" className="btn btn-custom" value="Send Message"></input>
-
-                  </Col>
-                </Row>
-              </form>
-            </Container>
-          </Row>
-        </Container>
-      </section>
+                    <Col lg>
+                      <div className="form-group mt-2">
+                        <label for="email" className="font-weight-bold">
+                          {" "}
+                          Email address{" "}
+                        </label>
+                        <input
+                          name="email"
+                          id="email"
+                          type="email"
+                          className="form-control"
+                          placeholder="Your email..."
+                        />
+                      </div>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col lg>
+                      <div className="form-group mt-2">
+                        <label for="comments" className="font-weight-bold">
+                          {" "}
+                          Message{" "}
+                        </label>
+                        <textarea
+                          name="comments"
+                          id="comments"
+                          rows="4"
+                          className="form-control"
+                          placeholder="Your message..."
+                        ></textarea>
+                      </div>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col lg className="text-right">
+                      {status === "SUCCESS" && (
+                        <p>
+                          Email has been sent! We will contact you shortly.
+                          Thank You.
+                        </p>
+                      )}
+                      {status === "ERROR" && <p> Ooops! There was an error.</p>}
+                      <input
+                        type="submit"
+                        id="submit"
+                        name="send"
+                        className="btn btn-custom"
+                        value="Send Message"
+                      ></input>
+                    </Col>
+                  </Row>
+                </form>
+              </Container>
+            </Row>
+          </Container>
+        </section>
+      </div>
     );
   }
 }
-
 
 export default ContactForm;
