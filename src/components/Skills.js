@@ -76,8 +76,7 @@ export default class Skills extends Component {
                           Angular <Icon icon={angularIcon} />
                         </h4>
                         <ProgressBar striped variant="info" animated now={60} />
-                      </div>    
-                      
+                      </div>
                     </Tab>
 
                     <Tab eventKey="backend" title="Back-End">

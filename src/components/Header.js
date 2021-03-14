@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-
 class MainHeader extends Component {
   constructor(props) {
     super(props);
 
     this.listener = null;
     this.state = {
-      status: "top"
+      status: "top",
     };
   }
   componentDidMount() {
-    this.listener = document.addEventListener("scroll", e => {
+    this.listener = document.addEventListener("scroll", (e) => {
       var scrolled = document.scrollingElement.scrollTop;
       if (scrolled >= 120) {
         if (this.state.status !== "nav") {
@@ -33,11 +32,13 @@ class MainHeader extends Component {
     return (
       <nav
         style={{
-          backgroundColor: this.state.status === "top" ? "transparent" : "white",
+          backgroundColor:
+            this.state.status === "top" ? "transparent" : "white",
           color: this.state.status === "top" ? "white" : "black",
-          position: "fixed"
+          position: "fixed",
         }}
-        className="navbar navbar-expand-lg custom-nav fixed-top">
+        className="navbar navbar-expand-lg custom-nav fixed-top"
+      >
         <Link
           // activeClass="active"
           className="navbar-brand"
@@ -48,13 +49,22 @@ class MainHeader extends Component {
           duration={500}
           style={{ cursor: "pointer" }}
           onClick={scroll.scrollToTop}
-        > Jae Kim </Link>
+        >
+          {" "}
+          Jae Kim{" "}
+        </Link>
         <button
           style={{
             color: this.state.status === "top" ? "white" : "black",
           }}
-          className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <i className="fa fa-bars"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -69,7 +79,10 @@ class MainHeader extends Component {
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > Home </Link>
+              >
+                {" "}
+                Home{" "}
+              </Link>
             </li>
             <li className="nav-item">
               <Link
@@ -80,7 +93,10 @@ class MainHeader extends Component {
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > About </Link>
+              >
+                {" "}
+                About{" "}
+              </Link>
             </li>
             <li className="nav-item">
               <Link
@@ -91,7 +107,10 @@ class MainHeader extends Component {
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > Experiences </Link>
+              >
+                {" "}
+                Experiences{" "}
+              </Link>
             </li>
             <li className="nav-item">
               <Link
@@ -102,7 +121,10 @@ class MainHeader extends Component {
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > Skills</Link>
+              >
+                {" "}
+                Skills
+              </Link>
             </li>
             <li className="nav-item">
               <Link
@@ -113,7 +135,10 @@ class MainHeader extends Component {
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > Projects </Link>
+              >
+                {" "}
+                Projects{" "}
+              </Link>
             </li>
             <li className="nav-item">
               <Link
@@ -124,7 +149,10 @@ class MainHeader extends Component {
                 offset={-70}
                 duration={500}
                 style={{ cursor: "pointer" }}
-              > Contact </Link>
+              >
+                {" "}
+                Contact{" "}
+              </Link>
             </li>
           </ul>
         </div>
