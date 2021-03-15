@@ -76,7 +76,7 @@ class About extends Component {
                         rel="noreferrer"
                       >
                         {" "}
-                        Catalyx.io{" "}
+                        catalyx.io{" "}
                       </a>
                     </span>
                     as a software developer, but mostly working as a full stack
