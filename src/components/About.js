@@ -7,7 +7,7 @@ class About extends Component {
       <div className="white_background">
         <section className="custom_section" id="about">
           <div className="text-center">
-            <h1 className="title"> About Me </h1>
+            <h1 className="title">About Me</h1>
           </div>
           <Container>
             <Row>
