@@ -67,7 +67,7 @@ class About extends Component {
                   and worked on several eCommerce websites.
                   <br />
                   <br /> */}
-                    Currently, I am currently working for
+                    Currently, I am working for
                     <span>
                       <a
                         className="catalyx_link"

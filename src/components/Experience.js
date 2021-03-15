@@ -11,7 +11,8 @@ class Experience extends Component {
           </div>
           <div className="container">
             <div className="row">
-              <div className="col-6">
+              <div className="col-md-6 col-12">
+                <p className="subtitle">Education</p>
                 <img
                   className="mb-4 w-75 mx-auto d-block"
                   src="../images/ubc_logo3.png"
@@ -19,7 +20,10 @@ class Experience extends Component {
                 ></img>
                   <Coursemodal />  
               </div>
-              <div className="col-6"> HELLO </div>
+              <div className="col-md-6 col-12">
+                <p className="subtitle">Experience</p>
+                
+              </div>
             </div>
           </div>
 
