@@ -21,7 +21,7 @@
 /*==========================
         1.BASIC
 ============================*/
-
+@import "../fonts/fonts.css";
 .example{
   position: absolute;
 }
@@ -32,15 +32,17 @@
   background-color: rgb(240, 240, 240);
 }
 .custom_section{
-  font-family: ubuntu;
   height: 100%;
   padding-top: 2em;
   padding-bottom: 2em;
   max-width: 1440px;
   margin: auto auto;
+  font-family: "HelveticaNowText-medium";
 }
 .title{
   margin-bottom: 2rem;
+  font-family: "HelveticaNowText-medium";
+  font-size: 3rem;
 }
 .subtitle{
   margin-bottom: 2rem;
@@ -52,7 +54,7 @@
 .custom-nav{
   padding: 15px 0px;
   width: 100%;
-  font-family: ubuntu;
+  font-family: "ITCAvantGardeStd-Demi";
   position: relative;
 }
 .custom-nav .navbar-brand{
@@ -86,7 +88,7 @@
         3.PROFILE
 ============================*/
 .custom-profile {
-  font-family: ubuntu;
+  font-family: "ITCAvantGardeStd-Md";
   background-image: url("../images/background_img3.png");
   background-size: cover;
   background-position: center center;
@@ -186,7 +188,6 @@
 }
 .about_explanation{
   font-size: 2vh;
-  /* font-family: 'Roboto', sans-serif; */
   font-weight: 500;
   margin: auto;
   padding: 10px;

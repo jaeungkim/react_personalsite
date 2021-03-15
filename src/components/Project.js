@@ -24,7 +24,7 @@ class Project extends Component {
       <div className="grey_background">
         <section className="custom_section" id="project">
           <div className="text-center">
-            <h1> Projects </h1>
+            <h1 className="title">Projects</h1>
           </div>
           <Container>
             <Row className="justify-content-md-center">
